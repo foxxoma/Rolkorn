@@ -1,5 +1,7 @@
 # 🎲 «Rolkorn»
 
+[🇺🇸 EN](README_EN.md) | [🇷🇺 RU](README.md)
+
 Universal rules for improvisational role-playing games.
 
 Just 4 attributes, 2 types of dice, and a few simple mechanics that turn any outcome into a new plot twist.
