@@ -9,233 +9,7 @@
     <meta name="author" content="foxxoma">
     <meta name="robots" content="index, follow">
 
-    <style>
-        :root {
-            --border-color: #ddd;
-        }
-
-        body {
-            font-family: "Open Sans", sans-serif;
-            font-optical-sizing: auto;
-            font-size: 18px;
-            line-height: 1.5;
-            background: #f8f9fb url(background.png) repeat center center / 20px 20px;
-            color: #242933;
-            padding: 15px;
-            margin: 0;
-        }
-        a {
-            text-decoration: none;
-            color: #509ada;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-weight: 600;
-            margin: 10px 0;
-        }
-
-        h2, h3, h4, h5, h6 {
-            font-weight: 600;
-            margin: 10px 0;
-            font-size: 24px;
-        }
-
-        span {
-            font-size: 16px;
-            font-weight: lighter;
-        }
-
-        strong {
-            font-weight: 600;
-            color: #242933;
-        }
-        li {
-            font-weight: lighter;
-        }
-        .black {
-            color: #242933;
-        }
-        .red {
-            color: #dc8bc3;
-        }
-        .blue {
-            color: #509ada;
-        }
-
-        .table {
-            overflow: hidden;
-            clip-path: polygon(
-                20px 0, 
-                calc(100% - 20px) 0, 
-                100% 20px, 
-                100% calc(100% - 20px), 
-                calc(100% - 20px) 100%, 
-                20px 100%, 
-                0 calc(100% - 20px), 
-                0 20px
-            );
-            width: fit-content;
-        }
-        table {
-            border-spacing: 0;
-            border-collapse: collapse;
-            text-align: left;
-            border-collapse: separate;
-        }
-        td, th {
-            /*border-right: 1px solid var(--border-color);*/
-            padding: 10px 30px;
-        }
-
-        th {
-            padding-top: 20px;
-            font-weight: 600;
-        }
-
-        tr:last-child td  {
-            padding-bottom: 20px;
-        }
-
-        tr {
-            background: #fff;
-        }
-
-        ul, ol {
-            padding: 0;
-            margin-left: 20px;
-        }
-
-        .home {
-            padding-top: 50px;
-            padding-bottom: 50px;
-            
-            width: 100%;
-            height: 100%;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-       .anim {
-            background-image: linear-gradient(-135deg, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0);
-            background-image: -ms-linear-gradient(-135deg, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-size: 200% 100%;
-            -webkit-animation: masked-animation 2s infinite linear;
-            animation: masked-animation 2s infinite linear;
-        }
-
-
-        @keyframes masked-animation {
-            0% {
-                background-position: 100% 0;
-            }
-            100% {
-                background-position: 0% 0;
-            }
-        }
-
-        @-webkit-keyframes masked-animation {
-            0% {
-                background-position: 100% 0;
-            }
-            100% {
-                background-position: 0% 0;
-            }
-        }
-
-        .contacts-items {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-bottom: 10px;
-        }
-
-
-        .block {
-            width: 100%;
-            margin-top: 70px;
-        }
-        .block .content {
-            width: 100%;
-        }
-        .block span {
-            margin-top: 10px;
-            display: block;
-        }
-        .list {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .list .list-item {
-            display: flex;
-            gap: 5px;
-            flex-wrap: wrap;
-            width: calc(50% - 55px);
-
-            padding: 15px 25px;
-            background: #fff;
-            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
-        }
-        .list-100 .list-item{
-            width: 100%;
-        }
-        .list-item__title {
-            font-weight: 500;
-            width: 100%;
-        }
-        .list-item__text {
-            font-weight: lighter;
-            width: 100%;
-        }
-        .contacts {
-            margin-top: 50px;
-        }
-        @media screen and (max-width: 900px) {
-            body {
-                font-size: 16px;
-            }
-            span {
-                font-size: 14px;
-            }
-
-            .block {
-                margin-top: 40px;
-            }
-        }
-
-        @media screen and (max-width: 600px) {
-            .list .list-item {
-                width: 100%;
-            }
-
-            td, th {
-                padding: 5px 10px;
-            }
-            th {
-                padding-top: 10px;
-            }
-
-            tr:last-child td  {
-                padding-bottom: 10px;
-            }
-
-            .table {
-                overflow: hidden;
-                clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
-                width: fit-content;
-            }
-            .home {
-                padding-top: 20px;
-                padding-bottom: 20px;
-            }
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -246,10 +20,12 @@
     <div class="home">
         <div class="container">
             <h1 class="anim">«Ролкорн»</h1>
+            <a href="en.html" class="lang anim">EN</a>
 
             <p>Универсальные правила для импровизационных ролевых игр.</p>
             <p>Всего 4 характеристики, 2 типа кубов и несколько простых механик, которые превратят любой исход в новый виток сюжета.</p>
             <p>Вы  можете по очереди брать на себя роль ведущего, совместно создавая мир и сюжет, где каждый игрок активно участвует в формировании истории.</p>
+            <p>Помните! Правила — не команды, а инструменты. Используйте их только тогда, когда вы в этом действительно нуждаетесь.</p>
 
             <div class="block">
                 <h3>Что есть?</h3>
@@ -427,6 +203,9 @@
                     </div>
                 </div>
                 <p><strong>Поражение:</strong> если раундов меньше или равно 0 — полный провал</p>
+
+                <span>Импровизируйте! Не чувствуйте себя скованными числом раундов. Сокращайте их, прерывайте, чтобы ввести новое событие или действие. Главное — чтобы это было интересно и логично для вашей истории.</span>
+
                 <p>«Герой взламывает сейф»</p>
 
                 <ul>

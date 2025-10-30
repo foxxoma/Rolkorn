@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolkorn | Universal rules for improvisational role-playing games</title>
+    <meta name="description" content="Rolkorn - simple and universal rules for role-playing games. Just 4 attributes, 2 types of dice, and a few simple mechanics.">
+    <meta name="keywords" content="RPG, TTRPG, role-playing games, tabletop games, rules, Rolkorn, improvisation, RPG">
+    <meta name="author" content="foxxoma">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="home">
+        <div class="container">
+            <h1 class="anim">«Rolkorn»</h1>
+            <a href="index.html" class="lang anim">RU</a>
+
+            <p>Universal rules for improvisational role-playing games.</p>
+            <p>Just 4 attributes, 2 types of dice, and a few simple mechanics that turn any outcome into a new plot twist.</p>
+            <p>You can take turns being the Game Master, collaboratively creating the world and story where every player actively participates in shaping the narrative.</p>
+            <p>Remember! Rules are tools, not commands. Use them only when you truly need them.</p>
+
+            <div class="block">
+                <h3>What's inside?</h3>
+                <div class="content">
+                    <div class="list">
+                        <div class="list-item">
+                            <div class="list-item__title"><a href="#pr">Character Attributes</a></div>
+                            <div class="list-item__text">What are they good at?</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title"><a href="#ob">Situation</a></div>
+                            <div class="list-item__text">Defines the scene's mood</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title"><a href="#sl">Difficulty</a></div>
+                            <div class="list-item__text">Number determining challenge difficulty</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title"><a href="#dy">Action</a></div>
+                            <div class="list-item__text">Attempt to overcome a challenge</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title"><a href="#np">Tension</a></div>
+                            <div class="list-item__text">Resisting failures</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title"><a href="#sp">Plot Twist</a></div>
+                            <div class="list-item__text">Where will the story turn next?</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title"><a href="#pt">Confrontation</a></div>
+                            <div class="list-item__text">Resolving conflicts</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block">
+                <h3 id="pr"><strong class="blue">#</strong> Character Creation</h3>
+                <p>Distribute 6 points, but note that the maximum attribute value is 4</p>
+                <div class="content">
+                    <div class="list">
+                        <div class="list-item">
+                            <div class="list-item__title">Strength</div>
+                            <div class="list-item__text">attack, defense, athletics...</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title">Dexterity</div>
+                            <div class="list-item__text">stealth, shooting, dodging...</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title">Intellect</div>
+                            <div class="list-item__text">knowledge, magic, hacking...</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title">Charisma</div>
+                            <div class="list-item__text">persuasion, deception, leadership...</div>
+                        </div>
+                    </div>
+                </div>
+                <span><strong>Example:</strong> Warrior [ Strength +2, Dexterity +1, Intellect 0, Charisma +1 ]</span>
+            </div>
+
+            <div class="block">
+                <h3 id="ob"><strong class="blue">#</strong> SITUATION</h3>
+                <p>The Game Master rolls a d4:</p>
+                <div class="content">
+                    <div class="table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>d4</th>
+                                    <th>Situation</th>
+                                    <th>Effect</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Danger</td>
+                                    <td>+3 to difficulty</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Complications</td>
+                                    <td>+2 to difficulty</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Neutral</td>
+                                    <td>+0 to difficulty</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Luck</td>
+                                    <td>-3 to difficulty</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <span><strong>Purpose:</strong> Assess the situation (atmosphere, mood of others, danger of the place, etc.)</span>
+            </div>
+
+            <div class="block">
+                <h3 id="sl"><strong class="blue">#</strong> DIFFICULTY</h3>
+                <p>The Game Master rolls d20 + situation modifier or opponent's attribute</p>
+
+                <span>d20=15 + Danger(+3) = Difficulty 18</span>
+                <span><strong>Purpose:</strong> Determine how difficult the challenge is.</span>
+            </div>
+
+            <div class="block">
+                <h3 id="dy"><strong class="blue">#</strong> ACTION</h3>
+                <p>The player rolls d20 + attribute</p>
+
+                <span>d20=10 + Strength(+3) + Assistance(+2) = 15</span>
+                <p><strong>Assistance:</strong> another player adds their attribute to the roll.</p>
+
+                <div class="content">
+                    <div class="list">
+                        <div class="list-item">
+                            <div class="list-item__title">SUCCESS</div>
+                            <div class="list-item__text">roll is greater than or equal to difficulty</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title">FAILURE</div>
+                            <div class="list-item__text">begins <a href="#np"><strong class="blue">#Tension</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block">
+                <h3 id="np"><strong class="blue">#</strong> TENSION</h3>
+                <p>The hero has 5 rounds or 5 lives, depending on the situation. </br>The player rolls a d4:</p>
+                <div class="content">
+                    <div class="table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>d4</th>
+                                    <th>Result</th>
+                                    <th>Difficulty</th>
+                                    <th>Rounds</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Getting Worse</td>
+                                    <td>+3</td>
+                                    <td>-3</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Hard</td>
+                                    <td>-1</td>
+                                    <td>-2</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Perseverance</td>
+                                    <td>-2</td>
+                                    <td>-1</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Breakthrough!</td>
+                                    <td>-3</td>
+                                    <td>-0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <p><strong>Defeat:</strong> if rounds are less than or equal to 0 — complete failure</p>
+
+                <span>Improvise! Don't feel constrained by the number of rounds. Shorten them, interrupt them to introduce a new event or action. The main thing is that it's interesting and logical for your story.</span>
+
+                <p>"The hero is cracking a safe"</p>
+
+                <ul>
+                    <li><a href="#ob"><strong>Situation:</strong></a> d4=1 (💀 Danger +3)</li>
+                    <li><a href="#sl"><strong>Difficulty:</strong></a> d20=10 + 3 = 13 </li>
+                    <li><a href="#dy"><strong>Action:</strong></a> player rolls 8 + Intellect(+2) = 10 (failure!)</li>
+                    <li><a href="#np"><strong>Tension:</strong></a> d4=1 — difficulty 16, 2 rounds left </li>
+                </ul>
+                <p>"You triggered the alarm! Sirens are blaring, there's little time left"</p>
+            </div>
+
+            <div class="block">
+                <h3 id="sp"><strong class="blue">#</strong> PLOT TWIST</h3>
+                <p>Use after key scenes to make the story develop unexpectedly</p>
+                <div class="content">
+                    <div class="table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>d4</th>
+                                    <th>Twist</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Setback</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Dead End</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Fork/Clue</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Progress</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="block">
+                <h3 id="pt"><strong class="blue">#</strong> Player vs Player (PVP)</h3>
+
+                <ul>
+                    <li><strong class="black">Attacker:</strong> sets the difficulty: <i>d20 + their attribute</i></li>
+                    <li><strong class="black">Defender:</strong> rolls: <i>d20 + their attribute</i></li>
+                    <li><strong class="black">Successful Defense:</strong> blocked the attack, can now counter-attack</li>
+                    <li><strong class="black">Failed Defense:</strong> begins <a href="#np"><strong class="blue">#Tension</strong></a> (5 rounds)</li>
+                    <li><strong class="black">Each Round:</strong> the attacker rerolls the difficulty and sums up buffs/debuffs from the defender's <a href="#np"><strong class="blue">#Tension</strong></a></li>
+                </ul>
+                <p>Conflict Example</p>
+
+                <div class="content">
+                    <div class="list list-100">
+                        <div class="list-item">
+                            <div class="list-item__title">ROUND 1 - Studying Style</div>
+                            <div class="list-item__text">
+                                <ul>
+                                    <li><strong class="black">Attacker:</strong> d20=14 + Strength(+2) = difficulty 16</li>
+                                    <li><strong class="black">Defense:</strong> d20=9 + Dexterity(+1) = 10 <strong class="red">FAILURE</strong></li>
+                                    <li><strong class="black">Tension:</strong> d4=3 → difficulty -2 (you studied their movement style), -1 round or life</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title">ROUND 2 - Using Knowledge</div>
+                            <div class="list-item__text">
+                                <ul>
+                                    <li><strong class="black">Attacker:</strong> d20=12 + Strength(+2) = difficulty 14 (-2 = 12)</li>
+                                    <li><strong class="black">Defense:</strong> d20=15 + Dexterity(+1) = 16 <strong class="blue">SUCCESS!</strong></li>
+                                </ul>
+                            </div>
+                            <p>"Using knowledge of their style, you parry the blow and counterattack!"</p>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item__title">ROUND 3 - Opponent Adapts</div>
+                            <div class="list-item__text">
+                                <ul>
+                                    <li><strong class="black">New Attacker:</strong> d20=10 + Dexterity(+1) = difficulty 11</li>
+                                    <li><strong class="black">Defense:</strong> d20=6 + Strength(+2) = 8 <strong class="red">FAILURE!</strong></li>
+                                    <li><strong class="black">Tension:</strong> d4=4 → difficulty -3</li>
+                                </ul>
+                            </div>
+                            <p>"The opponent has studied your techniques!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contacts">
+                <h2>Contacts</h2>
+                <div class="contacts-items">
+                    <div class="contacts__item anim">
+                         <a href="https://t.me/sf_andrey"><strong>Telegram:</strong> @sf_andrey</a>
+                    </div>
+                    <div class="contacts__item anim">
+                        <a href="mailto:foxxoma@gmail.com"><strong>Email:</strong> foxxoma@gmail.com</a>
+                    </div>
+                </div>
+                
+                <span>For any questions, suggestions, and feedback — write!</span>
+            </div>
+        </div>
+    </div>
+      
+</body>
+</html>
