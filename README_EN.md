@@ -145,7 +145,7 @@ Player rolls d4:*
 🧠 Intellect:  
 🎭 Charisma:  
 
-**Current round:**
+**Current round:**  
 **Current buffs/debuffs:**
 
 ---
