@@ -1,6 +1,6 @@
 # 🎲 «Rolkorn»
 
-**🌐 [Official Website](https://foxxoma.github.io/Rolkorn/en.html)**
+**🌐 [Website](https://foxxoma.github.io/Rolkorn/en.html)**
 
 [🇺🇸 EN](README_EN.md) | [🇷🇺 RU](README.md)
 
