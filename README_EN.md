@@ -8,7 +8,7 @@ Just 4 attributes, 2 types of dice, and a few simple mechanics that turn any out
 
 You can take turns being the Game Master, collaboratively creating the world and story where every player actively participates in shaping the narrative.
 
-Remember! Rules are tools, not commands. Use them only when you truly need them.
+Remember! Rules are tools, not commands. Use them only when you truly need them. Don't be afraid to add your own temporary bonuses for equipment, a clever idea, or great roleplaying. But remember: simplicity is the key to a dynamic game. Don't turn the story into bookkeeping.
 
 ## 🎯 WHAT'S INSIDE?
 
@@ -48,7 +48,7 @@ Remember! Rules are tools, not commands. Use them only when you truly need them.
 | 3   | 🌀 Neutral   | +0 to difficulty |
 | 4   | ✨ Luck      | -3 to difficulty |
 
-**Purpose**: Assess the situation (atmosphere, mood of others, danger of the place, etc.)
+**Purpose**: Assess the situation (atmosphere, mood of others, danger of the place, etc.). It is determined once at the beginning of a scene or when the circumstances change dramatically. The modifier remains in effect until the situation changes.
 
 ---
 
