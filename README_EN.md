@@ -156,3 +156,8 @@ Player rolls d4:*
 **Email:** foxxoma@gmail.com
 
 *For any questions, suggestions, and feedback — write!*
+
+---
+
+### 🏷️ Tags
+*rules, nri, role-playing games, rules-light, system, rollcorn, universal role-playing system, easy rules, minimalism, improvisation.*
