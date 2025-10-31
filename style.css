@@ -14,7 +14,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: #509ada;
+    color: #242933;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -160,7 +160,7 @@ ul, ol {
     flex-wrap: wrap;
     gap: 10px;
 }
-.list .list-item {
+.list-item {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
@@ -169,6 +169,9 @@ ul, ol {
     padding: 15px 25px;
     background: #fff;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+a.list-item:hover {
+    background: #dfedfc;
 }
 .list-100 .list-item{
     width: 100%;
