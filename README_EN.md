@@ -6,11 +6,11 @@
 
 Universal rules for role-playing games.
 
-Just 4 attributes, 2 types of dice, and a few simple mechanics that turn any outcome into a new plot twist.
+Rolecorn is a set of keys for a world that does not yet exist. The mechanics are not strict laws, but guides for your imagination.
 
-You can take turns being the Game Master, collaboratively creating the world and story where every player actively participates in shaping the narrative.
+There is no single Game Master here. You are all the creators of this world. Roll the dice to set the direction, and your imagination will do the rest. Every failure is a new twist, every victory is a tense triumph.
 
-Remember! Rules are tools, not commands. Use them only when you truly need them. Don't be afraid to add your own temporary bonuses for equipment, a clever idea, or great roleplaying. But remember: simplicity is the key to a dynamic game. Don't turn the story into bookkeeping.
+Remember: these rules are the backdrop for your actions, not their confines. Use them only when you truly need to. Don't be afraid to add your own temporary bonuses for equipment, a clever idea, or great roleplaying. But remember: simplicity is the key to a dynamic game. Don't turn the story into bookkeeping.
 
 ## 🎯 WHAT'S INSIDE?
 
@@ -45,8 +45,8 @@ Remember! Rules are tools, not commands. Use them only when you truly need them.
 
 | d4  | Situation    | Effect         |
 | --- | ------------ | -------------- |
-| 1   | 💀 Danger    | +3 to difficulty |
-| 2   | ⚡ Complications | +2 to difficulty |
+| 1   | 💀 Danger    | +5 to difficulty |
+| 2   | ⚡ Complications | +3 to difficulty |
 | 3   | 🌀 Neutral   | +0 to difficulty |
 | 4   | ✨ Luck      | -3 to difficulty |
 
@@ -56,7 +56,7 @@ Remember! Rules are tools, not commands. Use them only when you truly need them.
 
 ### 2. 🎯 **DIFFICULTY**  
 *Game Master rolls d20 + situation modifier or opponent's attribute*  
-**Example:** d20=15 + Danger(+3) = Difficulty 18
+**Example:** d20=15 + Danger(+5) = Difficulty 20
 
 **Purpose**: Determine how difficult the challenge is.
 
@@ -91,7 +91,7 @@ Player rolls d4:*
 ### 💡 EXAMPLE
 
 *"The hero is cracking a safe"*  
-1. **Situation:** d4=1 (💀 Danger +3)  
+1. **Situation:** d4=2 (Complications +3)  
 2. **Difficulty:** d20=10 + 3 = 13  
 3. **Action:** player rolls 8 + Intellect(+2) = 10 (failure!)  
 4. **Tension:** d4=1 — difficulty 16, 2 rounds left  
@@ -104,7 +104,7 @@ Player rolls d4:*
 
 | d4  | Twist            |
 | --- | ---------------- |
-| 1   | 🔄 Setback       |
+| 1   | 🔄 Setback/Aggravation       |
 | 2   | ⏸️ Dead End      |
 | 3   | 🌱 Fork/Clue     |
 | 4   | 🎯 Progress      |
