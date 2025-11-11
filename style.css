@@ -7,14 +7,20 @@ body {
     font-optical-sizing: auto;
     font-size: 18px;
     line-height: 1.5;
-    background: #f8f9fb url(background.png) repeat center center / 20px 20px;
-    color: #242933;
+    background: #222;
+    color: #fff;
     padding: 15px;
     margin: 0;
+
+    background-color: #222;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
 }
 a {
     text-decoration: none;
-    color: #242933;
+    color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,13 +41,13 @@ span {
 
 strong {
     font-weight: 600;
-    color: #242933;
+    color: #fff;
 }
 li {
     font-weight: lighter;
 }
 .black {
-    color: #242933;
+    color: #fff;
 }
 .red {
     color: #dc8bc3;
@@ -85,7 +91,7 @@ tr:last-child td  {
 }
 
 tr {
-    background: #fff;
+    background: #252525;
 }
 
 ul, ol {
@@ -167,11 +173,12 @@ ul, ol {
     width: calc(50% - 55px);
 
     padding: 15px 25px;
-    background: #fff;
+    background: #252525;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
 }
 a.list-item:hover {
     background: #dfedfc;
+    color: #000;
 }
 .list-100 .list-item{
     width: 100%;
