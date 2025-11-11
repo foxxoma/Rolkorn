@@ -124,7 +124,7 @@ Player rolls d4:*
 
 ### 🎭 Conflict Example
 
-- **ROUND 1**
+- **ROUND 1**  
     Warrior: "I'm using a feint to try to knock the sword out of his hands!" (Strength +2). Roll: d20=13 + Strength(+2) = 15
     Rogue: "I dodge and try to slip past to strike him in the back!" (Dexterity +3). Roll: d20=10 + Dexterity(+3) = 13
 
@@ -132,7 +132,7 @@ Player rolls d4:*
     The Rogue rolls for ⏳ **TENSION**: d4=1 (Everything's Worse). He gets a -3 debuff to his next roll.
     *"You're left without a sword, you slip and fall to one knee. You're now in a desperate position (-3)."*
 
-- **ROUND 2**
+- **ROUND 2**  
     Motives change. The Rogue now wants to "retreat and draw a backup dagger" (Dexterity), while the Warrior wants to "finish him off while he's vulnerable" (Strength).
     On his roll, the Rogue will apply his debuff: d20 + Dexterity - 3.
     After the rolls, the Rogue successfully retreats, and the Warrior, rolling for ⏳ **TENSION** (4), gets a Buff: (difficulty -3 = +3 to roll).
