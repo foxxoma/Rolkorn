@@ -253,56 +253,49 @@
                 </div>
             </div>
 
-
             <div class="block">
-                <h3 id="pt"><strong class="blue">#</strong> Player vs Player (PVP)</h3>
+                <h3 id="pvpen"><strong class="blue">#</strong> The confrontation of the players</h3>
 
                 <ul>
-                    <li><strong class="black">Attacker:</strong> sets the difficulty: <i>d20 + their attribute</i></li>
-                    <li><strong class="black">Defender:</strong> rolls: <i>d20 + their attribute</i></li>
-                    <li><strong class="black">Successful Defense:</strong> blocked the attack, can now counter-attack</li>
-                    <li><strong class="black">Failed Defense:</strong> begins <a href="#np"><strong class="blue">#Tension</strong></a> (5 rounds)</li>
-                    <li><strong class="black">Each Round:</strong> the attacker rerolls the difficulty and sums up buffs/debuffs from the defender's <a href="#np"><strong class="blue">#Tension</strong></a></li>
+                    <li><strong class="black">Agree on the number of rounds:</strong> Some clashes can be resolved in a single attempt</li>
+                    <li><strong class="black">Declare your motives:</strong> Each side states: "I want to..." and "...using (Attribute)"</li>
+                    <li><strong class="black">Simultaneous roll:</strong> Both sides roll d20 + declared Attribute</li>
+                    <li><strong class="black">Winner (higher roll):</strong> Achieves their goal</li>
+                    <li><strong class="black">Loser (lower roll):</strong> Fails their attempt; if there's more than one round, <a href="#tensionen"><strong class="blue">#Tension</strong></a> begins</li>
+                    <li><strong class="black">Each round:</strong> Sum up all your buffs and debuffs from TENSION and add them to your next roll</li>
                 </ul>
-                <p>Conflict Example</p>
+                <p>Essentially, your opponent's roll sets the difficulty for you, so if you rolled 3 on Tension (difficulty -2) it means you add +2 to your own roll</p>
+
+                <p><strong class="black">Conflict Example</strong></p>
 
                 <div class="content">
                     <div class="list list-100">
                         <div class="list-item">
-                            <div class="list-item__title">ROUND 1 - Studying Style</div>
+                            <div class="list-item__title">ROUND 1</div>
                             <div class="list-item__text">
                                 <ul>
-                                    <li><strong class="black">Attacker:</strong> d20=14 + Strength(+2) = difficulty 16</li>
-                                    <li><strong class="black">Defense:</strong> d20=9 + Dexterity(+1) = 10 <strong class="red">FAILURE</strong></li>
-                                    <li><strong class="black">Tension:</strong> d4=3 → difficulty -2 (you studied their movement style), -1 round or life</li>
+                                    <li><strong class="black">Warrior:</strong> "I'm using a feint to try to knock the sword out of his hands!" (Strength +2).</br> <strong class="red">Roll:</strong> d20=13 + Strength(+2) = 15</li>
+                                    <li><strong class="black">Rogue:</strong> "I dodge and try to slip past to strike him in the back!" (Dexterity +3). </br> <strong class="red">Roll:</strong> d20=10 + Dexterity(+3) = 13</li>
+                                    <li>The Warrior wins. He describes how his powerful strike forces the Rogue to drop his sword.</li>
+                                    <li>The Rogue rolls for <a href="#tensionen"><strong class="blue">#Tension</strong></a> d4=1 (Everything's Worse). He gets a -3 debuff to his next roll.</li>
                                 </ul>
                             </div>
+                            <p>"You're left without a sword, you slip and fall to one knee. You're now in a desperate position (-3)"</p>
                         </div>
                         <div class="list-item">
-                            <div class="list-item__title">ROUND 2 - Using Knowledge</div>
+                            <div class="list-item__title">ROUND 2</div>
                             <div class="list-item__text">
                                 <ul>
-                                    <li><strong class="black">Attacker:</strong> d20=12 + Strength(+2) = difficulty 14 (-2 = 12)</li>
-                                    <li><strong class="black">Defense:</strong> d20=15 + Dexterity(+1) = 16 <strong class="blue">SUCCESS!</strong></li>
+                                    <li>Motives change. The Rogue now wants to "retreat and draw a backup dagger" (Dexterity), while the Warrior wants to "finish him off while he's vulnerable" (Strength).</li>
+                                    <li>The Rogue will apply his debuff: </br> <strong class="red">Roll:</strong> d20 + Dexterity - 3.</li>
+                                    <li>After the rolls, the Rogue successfully retreats, and the Warrior, rolling for <a href="#tensionen"><strong class="blue">#Tension</strong></a> d4=4, gets a Buff: (difficulty -3 = +3 to roll).</li>
                                 </ul>
                             </div>
-                            <p>"Using knowledge of their style, you parry the blow and counterattack!"</p>
-                        </div>
-                        <div class="list-item">
-                            <div class="list-item__title">ROUND 3 - Opponent Adapts</div>
-                            <div class="list-item__text">
-                                <ul>
-                                    <li><strong class="black">New Attacker:</strong> d20=10 + Dexterity(+1) = difficulty 11</li>
-                                    <li><strong class="black">Defense:</strong> d20=6 + Strength(+2) = 8 <strong class="red">FAILURE!</strong></li>
-                                    <li><strong class="black">Tension:</strong> d4=4 → difficulty -3</li>
-                                </ul>
-                            </div>
-                            <p>"The opponent has studied your techniques!"</p>
+                            <p>"The Warrior missed his strike, but managed to analyze the Rogue's movements."</p>
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <div class="contacts">
                 <h2>Contacts</h2>

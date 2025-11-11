@@ -254,50 +254,44 @@
 
 
             <div class="block">
-                <h3 id="pt"><strong class="blue">#</strong> Противостояние игроков (PVP)</h3>
+                <h3 id="pt"><strong class="blue">#</strong> Противостояние игроков</h3>
 
                 <ul>
-                    <li><strong class="black">Атакующий:</strong> задает сложность: <i>d20 + своя характеристика</i></li>
-                    <li><strong class="black">Защищающийся:</strong> бросает: <i>d20 + своя характеристика</i></li>
-                    <li><strong class="black">Успех защиты:</strong> отбил атаку, теперь можно атаковать в ответ</li>
-                    <li><strong class="black">Провал защиты:</strong> начинается <a href="#np"><strong class="blue">#Напряжение</strong></a> (5 раундов)</li>
-                    <li><strong class="black">Каждый круг:</strong> атакующий заново бросает сложность и суммирует бафы/дебафы от <a href="#np"><strong class="blue">#Напряжения</strong></a> защищающегося</li>
+                    <li><strong class="black">Согласуйте количество раундов:</strong> Какие-то столкновения могут пройти и за одну попытку</li>
+                    <li><strong class="black">Объявите мотивы:</strong> Каждая сторона объявляет: "Я хочу..." и "...используя (Характеристику)"</li>
+                    <li><strong class="black">Одновременный бросок:</strong> Обе стороны бросают d20 + заявленная Характеристика</li>
+                    <li><strong class="black">Победитель (высший бросок):</strong> Достигает своей цели</li>
+                    <li><strong class="black">Проигравший (низший бросок):</strong> Терпит неудачу, если раундов больше одного, начинается <a href="#np"><strong class="blue">#Напряжение</strong></a></li>
+                    <li><strong class="black">Каждый круг:</strong> Суммируйте все свои бафы и дебафы от НАПРЯЖЕНИЯ и добавляйте к следующему броску</li>
                 </ul>
-                <p>Пример конфликта</p>
+                <p>По сути для вас бросок оппонента это установка сложности, так что если у вас выпало 3 в напряжение (сложность -2) значит вы к своему броску добавляете +2</p>
+
+                <p><strong class="black">Пример конфликта</strong></p>
 
                 <div class="content">
                     <div class="list list-100">
                         <div class="list-item">
-                            <div class="list-item__title">РАУНД 1 - Изучение стиля</div>
+                            <div class="list-item__title">РАУНД 1</div>
                             <div class="list-item__text">
                                 <ul>
-                                    <li><strong class="black">Атакующий:</strong> d20=14 + Сила(+2) = сложность 16</li>
-                                    <li><strong class="black">Защита:</strong> d20=9 + Ловкость(+1) = 10 <strong class="red">ПРОВАЛ</strong></li>
-                                    <li><strong class="black">Напряжение:</strong> d4=3 → сложность -2 (ты изучил его манеру движений), -1 раунд или жизни</li>
+                                    <li><strong class="black">Воин:</strong> "Я делаю обманный манёвр и пытаюсь выбить меч из его рук!" (Сила +2). </br> <strong class="red">Бросок:</strong> d20=13 + Сила(+2) = 15</li>
+                                    <li><strong class="black">Плут:</strong> "Уворачиваюсь и пытаюсь проскочить, что бы ударить в спину!" (Ловкость +3). </br><strong class="red">Бросок:</strong> d20=10 + Ловкость(+3) = 13</li>
+                                    <li>Побеждает Воин. Он описывает, как его мощный удар заставляет Плута выронить меч.</li>
+                                    <li>Плут бросает <a href="#np"><strong class="blue">#Напряжение</strong></a> </br> <strong class="red">Бросок:</strong> d4=1 (Всё хуже). Он получает дебафф -3 к своему следующему броску.</li>
                                 </ul>
                             </div>
+                            <p>«Ты остаешься без меча, подскальзываешься и падаешь на одно колено. Теперь ты в отчаянном положении (-3)»</p>
                         </div>
                         <div class="list-item">
-                            <div class="list-item__title">РАУНД 2 - Использование знаний</div>
+                            <div class="list-item__title">РАУНД 2</div>
                             <div class="list-item__text">
                                 <ul>
-                                    <li><strong class="black">Атакующий:</strong> d20=12 + Сила(+2) = сложность 14 (-2 = 12)</li>
-                                    <li><strong class="black">Защита:</strong> d20=15 + Ловкость(+1) = 16 <strong class="blue">УСПЕХ!</strong></li>
-                                    <li><strong class="black">Напряжение:</strong> d4=3 => сложность -2 (ты изучил его манеру движений), -1 раунд или жизни</li>
+                                    <li>Мотивы меняются. Плут теперь хочет "отступить и достать запасной кинжал" (Ловкость), а Воин хочет "добить его, пока тот уязвим" (Сила).</li>
+                                    <li>Плут будет применять свой дебафф:</br> <strong class="red">Бросок:</strong> d20 + Ловкость - 3.</li>
+                                    <li>После бросков Плут успешно отступает, а Воин бросив  <a href="#np"><strong class="blue">#Напряжение</strong></a> d4=4, получает Бафф: (сложность -3 = +3 к броску).</li>
                                 </ul>
                             </div>
-                            <p>«Используя знание его стиля, ты парируешь удар и контратакуешь!»</p>
-                        </div>
-                        <div class="list-item">
-                            <div class="list-item__title">РАУНД 3 - Противник адаптируется</div>
-                            <div class="list-item__text">
-                                <ul>
-                                    <li><strong class="black">Новый атакующий:</strong> d20=10 + Ловкость(+1) = сложность 11</li>
-                                    <li><strong class="black">Защита:</strong> d20=6 + Сила(+2) = 8 <strong class="red">ПРОВАЛ!</strong></li>
-                                    <li><strong class="black">Напряжение:</strong> d4=4 => сложность -3</li>
-                                </ul>
-                            </div>
-                            <p>«Противник изучил твои приемы!»</p>
+                            <p>«Воин промахнулся, но смог проанализировать Плута.»</p>
                         </div>
                     </div>
                 </div>

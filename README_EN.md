@@ -111,30 +111,32 @@ Player rolls d4:*
 
 ---
 
-## ⚔️ Player vs Player (PVP)
+## ⚔️ The confrontation of the players
 
-- 🎲 **Attacker** sets difficulty: `d20 + their attribute`  
-- 🛡️ **Defender** rolls: `d20 + their attribute`  
-- ✅ **Successful defense** = blocked the attack, can now counter-attack  
-- ❌ **Failed defense** = begins ⏳ Tension (5 rounds)  
-- 🔁 **Each round** attacker rerolls difficulty and sums buffs/debuffs from defender's Tension  
+- **Agree on the number of rounds:** Some clashes can be resolved in a single attempt
+- **Declare your motives:** Each side states: "I want to..." and "...using (Attribute)"
+- 🎲 **Simultaneous roll:** Both sides roll d20 + declared Attribute
+- ✅ **Winner (higher roll):** Achieves their goal
+- ❌ **Loser (lower roll):** Fails their attempt; if there's more than one round, ⏳ **TENSION** begins
+- 🔁 **Each round:** Sum up all your buffs and debuffs from TENSION and add them to your next roll
+
+*Essentially, your opponent's roll sets the difficulty for you, so if you rolled 3 on TENSION (difficulty -2) it means you add +2 to your own roll*
 
 ### 🎭 Conflict Example
 
-- ROUND 1 - Studying Style
-	🎲 Attacker: d20=14 + 💪Strength(+2) = difficulty 16  
-	🛡️ Defense: d20=9 + 🎯Dexterity(+1) = 10 ❌ FAILURE  
-	⏳ Tension: d4=3 → difficulty -2 (you studied their movement style), -1 round or life  
+- **ROUND 1**
+    Warrior: "I'm using a feint to try to knock the sword out of his hands!" (Strength +2). Roll: d20=13 + Strength(+2) = 15
+    Rogue: "I dodge and try to slip past to strike him in the back!" (Dexterity +3). Roll: d20=10 + Dexterity(+3) = 13
 
-- ROUND 2 - Using Knowledge  
-	🎲 Attacker: d20=12 + 💪Strength(+2) = difficulty 14 (-2 = 12)  
-	🛡️ Defense: d20=15 + 🎯Dexterity(+1) = 16 ✅ SUCCESS!  
-	💬 "Using knowledge of their style, you parry the blow and counterattack!"  
+    The Warrior wins. He describes how his powerful strike forces the Rogue to drop his sword.
+    The Rogue rolls for ⏳ **TENSION**: d4=1 (Everything's Worse). He gets a -3 debuff to his next roll.
+    *"You're left without a sword, you slip and fall to one knee. You're now in a desperate position (-3)."*
 
-- ROUND 3 - Opponent Adapts
-	🎲 New attacker: d20=10 + 🎯Dexterity(+1) = difficulty 11  
-	🛡️ New defense: d20=6 + 💪Strength(+2) = 8 ❌ FAILURE  
-	⏳ Tension: d4=4 → difficulty -3 (opponent studied your techniques)  
+- **ROUND 2**
+    Motives change. The Rogue now wants to "retreat and draw a backup dagger" (Dexterity), while the Warrior wants to "finish him off while he's vulnerable" (Strength).
+    On his roll, the Rogue will apply his debuff: d20 + Dexterity - 3.
+    After the rolls, the Rogue successfully retreats, and the Warrior, rolling for ⏳ **TENSION** (4), gets a Buff: (difficulty -3 = +3 to roll).
+    *"The Warrior missed his strike, but managed to analyze the Rogue's movements."*
 
 ---
 
@@ -162,4 +164,4 @@ Player rolls d4:*
 ---
 
 ### 🏷️ Tags
-*rules, nri, role-playing games, rules-light, system, rollcorn, universal role-playing system, easy rules, minimalism, improvisation.*
+*narrative system, rules, nri, role-playing games, rules-light, system, rollcorn, universal role-playing system, easy rules, minimalism, improvisation.*
