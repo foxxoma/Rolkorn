@@ -56,6 +56,18 @@ li {
     color: #509ada;
 }
 
+.logo {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.logo svg {
+    width: 35px;
+    height: auto;
+}
+
 .table {
     overflow: hidden;
     clip-path: polygon(
@@ -100,7 +112,7 @@ ul, ol {
 }
 
 .home {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 50px;
     
     width: 100%;
@@ -229,7 +241,6 @@ a.list-item:hover {
         width: fit-content;
     }
     .home {
-        padding-top: 20px;
         padding-bottom: 20px;
     }
 }
