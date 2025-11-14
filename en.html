@@ -84,6 +84,10 @@
                             <div class="list-item__title">Confrontation</div>
                             <div class="list-item__text">Resolving conflicts</div>
                         </a>
+                        <a href="#hk" class="list-item">
+                            <div class="list-item__title">Condition scale</div>
+                            <div class="list-item__text">Tracking states</div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -278,7 +282,7 @@
             </div>
 
             <div class="block">
-                <h3 id="pvpen"><strong class="blue">#</strong> The confrontation of the players</h3>
+                <h3 id="pt"><strong class="blue">#</strong> The confrontation of the players</h3>
 
                 <ul>
                     <li><strong class="black">Agree on the number of rounds:</strong> Some clashes can be resolved in a single attempt</li>
@@ -316,6 +320,85 @@
                                 </ul>
                             </div>
                             <p>"The Warrior missed his strike, but managed to analyze the Rogue's movements."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block">
+                <h3 id="hk"><strong class="blue">#</strong> CONDITION SCALE</h3>
+                <p>Scales allow you to track a character's progressive conditions. There can be any number of scales, of any nature (from psychological state to virus infection).</p>
+                <p>Determine the scale's primary characteristic from the character's existing attributes. If you are not satisfied with the available attributes, add your own. Or, make the scale completely independent.</p>
+                <p>Now think about and write down under what circumstances the condition will worsen: horror, loss, confrontations...
+                </br>And under what circumstances it will recover: time, rest, new hope...</p>
+                <p>Now divide the condition into 5 stages and describe the changes that occur at each of them.</p>
+
+                <p>Now for a bit of math:</p>
+                <ul>
+                    <li>
+                        <strong>Check Difficulty</strong>
+                        </br>
+                        Starts at 10, increases by 2 for each filled step.
+                    </li>
+                    <li>
+                        <strong>Scale Length</strong>
+                        </br>
+                        Determine how long the scale will be (5, 10, 15, 20, ..., 50) - the smaller the value, the faster the scale fills.
+                    </li>
+                    <li>
+                        <strong>Step</strong>
+                        </br>
+                        A number that tells you how often key changes occur.
+                        </br>
+                        What is it equal to?
+                        </br>
+                        Scale Length / 5. I.e., if the scale is 25 (25/5=5) Step = 5
+                        </br>
+                        <strong>Each step (5 units) filled in the scale:</strong>
+                        <ul>
+                            <li>increases the scale's check difficulty by 2</li>
+                            <li>changes occur in the character</li>
+                            <li>(optional) you cannot reduce the scale below the current threshold value. I.e., if your scale is filled to 18, you can at most reduce it to 15.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Each time you face circumstances that worsen the condition, roll a d20 + the scale's primary characteristic (if applicable).</p>
+                <ul>
+                    <li>Values less than the current difficulty: the scale value increases by 1</li>
+                    <li>Value greater: nothing happens</li>
+                </ul>
+                <p>When condition recovery occurs: roll a d4 to find out by how many units it has recovered.</p>
+
+                <p></p>
+                <div class="content">
+                    <div class="list list-100">
+                        <div class="list-item">
+                            <div class="list-item__title">Example Sanity Scale:</div>
+                            <div class="list-item__text">
+                                <ul>
+                                    <li><strong>Triggers:</strong>
+                                        <ul>
+                                            <li>Worsening: seeing horror, getting injured, spending a night without sleep...</li>
+                                            <li>Recovery: rest, new hope, life's joys...</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Changes</strong>
+                                        <ol>
+                                            <li>Rare auditory hallucinations</li>
+                                            <li>Increased nervousness</li>
+                                            <li>New phobia, intensification of hallucinations</li>
+                                            <li>Uncontrollable aggression</li>
+                                            <li>Total insanity</li>
+                                        </ol>
+                                    </li>
+                                    <li><strong>Length:</strong> 15</li>
+                                    <li><strong>Step:</strong> 3 (15/5)</li>
+                                    <li><strong>Characteristic:</strong> Intelligence (3)</li>
+                                    <li><strong>Current Value:</strong> 7</li>
+                                    <li><strong>Current Difficulty:</strong> 14 (10 + (2 + 2))</li>
+                                    <li><strong>Roll:</strong> d20 + Intelligence (3)</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
