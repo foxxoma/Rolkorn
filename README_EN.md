@@ -21,6 +21,7 @@ Remember: these rules are the backdrop for your actions, not their confines. Use
 - **TENSION** - resisting failures  
 - **PLOT TWIST** - where will the story turn next?  
 - **CONFRONTATION** - resolving conflicts
+- **CONDITION SCALE** - tracking states
 
 ---
 
@@ -140,55 +141,49 @@ Player rolls d4:*
 
 ---
 
-## State Tracks
+## CONDITION SCALE
 
-State tracks allow you to track progressive conditions of a character. There can be any number of tracks, of any nature (from psychological state to viral infection).
+Scales allow you to track a character's progressive conditions. There can be any number of scales, of any nature—from psychological state to viral infection.  
 
-Define the primary attribute for the track from the character's existing attributes. If you are not satisfied with the available attributes, add your own. Or, make the track completely independent.
+First, define the scale's primary attribute from the character's existing attributes. If you're not satisfied with the available attributes, add your own. Or, make the scale entirely independent.  
 
-Now, think about and write down under what circumstances the condition will worsen: horror, loss, conflicts...
-And under what circumstances it will recover: time, rest, new hope...
+Now, think about and list the circumstances under which the condition will worsen: horror, loss, confrontations...  
+And under which it will recover: time, rest, newfound hope...  
 
-Now, divide the condition into 5 stages and describe what changes occur at each of them.
+Next, divide the condition into 5 stages and describe the changes that occur at each one. These stages are tied to the condition's boxes.  
 
-Now for a little math:
+**Difficulty**  
+Determine the target number needed on a roll to avoid gaining condition points. It starts at 10 and increases as condition boxes are filled.  
 
-Core Values
-- Check Difficulty.
-      Starts at 10, increases by 2 for each completed Step.
-- Track Length
-      Determine how long the track will be (5, 10, 15, 20, ..., 50) - the smaller the value, the faster the track fills.
-- Step
-      A number telling you how often key changes occur.
-      What is it equal to?
-      Track Length / 5. I.e., if the track length is 25 (25/5=5) Step = 5
-      For each Step (5 units) filled in the track:
-        - the track's check difficulty increases by 2
-        - changes occur in the character
-        - (optional) you cannot lower the track below milestone values. I.e., if your track is filled to 18, you can only lower it to 15 at most.
+Each time you face circumstances that worsen the condition, roll d20 + the scale's primary attribute (if applicable) against the current Difficulty. On a failure, gain 1 condition point.  
 
-Each time you encounter circumstances that worsen the condition, roll d20 + the track's primary attribute (if specified).
-- Result less than the current difficulty: The scale value has increased by 1
-- Result greater than or equal: Nothing happens
+**Condition Boxes**  
+You have 5 Condition Boxes. Each box can hold a specific number of condition points. Set these for your scale (e.g., 1, 5, 10...). The lower the value, the faster the scale fills.  
+Once a box reaches its limit:  
+- Its stage effect is applied  
+- The Difficulty increases by 2  
+- New points begin filling the next box  
 
-When recovery of the condition occurs: roll a d4 to determine by how many units it recovers.
+When recovery occurs: roll a d4 and subtract the result from the value in the *current* box.  
+- If the rolled value is greater than the value in the current box, start subtracting from the *previous* box and remove its effects.  
+- (Optional) For some scales, you can rule that filled boxes cannot be recovered.  
 
-Example track: Sanity
-- Triggers:
-    - Worsening: witnessing horror, getting injured, spending a night without sleep...
-    - Recovery: rest, new hope, joys of life...
-- Stage Effects
-    - 1. Occasional auditory hallucinations
-    - 2. Increased nervousness
-    - 3. A new phobia, intensified hallucinations
-    - 4. Uncontrollable aggression
-    - 5. Total madness
-- Length: 15
-- Step: 3 (15/5)
-- Attribute: Intelligence (3)
-- Current Value: 7
-- Current Difficulty: 14 (10 + (2 + 2))
-- Roll: d20 + Intelligence (3)
+**Example: Sanity**  
+- Triggers:  
+    - Worsening: witnessing horror, getting injured, spending a night without sleep...  
+    - Recovery: rest, newfound hope, joys of life...  
+- Stages  
+    - 1. Occasional auditory hallucinations  
+    - 2. Increased nervousness  
+    - 3. A new phobia, intensified hallucinations  
+    - 4. Uncontrollable aggression  
+    - 5. Total insanity  
+- Box Limits: 5  
+- Filled Boxes: 2  
+- Current Box: 3, Value: 2  
+- Attribute: Intelligence (3)  
+- Current Difficulty: 14 (10 + (Number of Filled Boxes * 2))  
+- Roll: d20 + Intelligence (3)  
 
 ---
 

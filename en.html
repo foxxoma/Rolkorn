@@ -327,75 +327,78 @@
 
             <div class="block">
                 <h3 id="hk"><strong class="blue">#</strong> CONDITION SCALE</h3>
-                <p>Scales allow you to track a character's progressive conditions. There can be any number of scales, of any nature (from psychological state to virus infection).</p>
-                <p>Determine the scale's primary characteristic from the character's existing attributes. If you are not satisfied with the available attributes, add your own. Or, make the scale completely independent.</p>
-                <p>Now think about and write down under what circumstances the condition will worsen: horror, loss, confrontations...
-                </br>And under what circumstances it will recover: time, rest, new hope...</p>
-                <p>Now divide the condition into 5 stages and describe the changes that occur at each of them.</p>
+                <p>Scales allow you to track a character's progressive conditions. There can be any number of scales, of any nature (from psychological state to viral infection).</p>
+                <p>First, define the scale's primary attribute from the character's existing attributes. If you're not satisfied with the available attributes, add your own. Or, make the scale entirely independent.</p>
+                <p>Now, think about and list the circumstances under which the condition will worsen: horror, loss, confrontations...
+                <br>And under which it will recover: time, rest, newfound hope....</p>
+                <p>Next, divide the condition into 5 stages and describe the changes that occur at each one.</p>
+                <p>
+                    <strong class="red">Difficulty</strong>
+                    <br>
+                    The target number needed on a roll to avoid gaining condition points. It starts at 10 and increases as condition boxes are filled.
+                </p>
+                <p>
+                    Each time you face circumstances that worsen the condition, roll d20 + the scale's primary attribute (if applicable) against the current Difficulty. On a failure, gain 1 condition point.
+                </p>
+                <p>
+                    <strong class="red">Condition Boxes</strong>
+                    <br>
+                    You have 5 Condition Boxes. Each box can hold a specific number of condition points. Set these for your scale (e.g., 1, 5, 10...). The lower the value, the faster the scale fills.
+                    <br>
+                    <br>
+                    Once a box reaches its limit:
+                    <ul>
+                        <li>
+                            Its stage effect is applied
+                        </li>
+                        <li>
+                            The Difficulty increases by 2
+                        </li>
+                        <li>
+                            New points begin filling the next box
+                        </li>
+                    </ul>
+                </p>
 
-                <p>Now for a bit of math:</p>
-                <ul>
-                    <li>
-                        <strong>Check Difficulty</strong>
-                        </br>
-                        Starts at 10, increases by 2 for each filled step.
-                    </li>
-                    <li>
-                        <strong>Scale Length</strong>
-                        </br>
-                        Determine how long the scale will be (5, 10, 15, 20, ..., 50) - the smaller the value, the faster the scale fills.
-                    </li>
-                    <li>
-                        <strong>Step</strong>
-                        </br>
-                        A number that tells you how often key changes occur.
-                        </br>
-                        What is it equal to?
-                        </br>
-                        Scale Length / 5. I.e., if the scale is 25 (25/5=5) Step = 5
-                        </br>
-                        <strong>Each step (5 units) filled in the scale:</strong>
-                        <ul>
-                            <li>increases the scale's check difficulty by 2</li>
-                            <li>changes occur in the character</li>
-                            <li>(optional) you cannot reduce the scale below the current threshold value. I.e., if your scale is filled to 18, you can at most reduce it to 15.</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p>Each time you face circumstances that worsen the condition, roll a d20 + the scale's primary characteristic (if applicable).</p>
-                <ul>
-                    <li>Values less than the current difficulty: the scale value increases by 1</li>
-                    <li>Value greater: nothing happens</li>
-                </ul>
-                <p>When condition recovery occurs: roll a d4 to find out by how many units it has recovered.</p>
+                <p>
+                    When recovery occurs: roll a d4 and subtract the result from the value in the *current* box:
+                    <ul>
+                        <li>
+                            If the rolled value is greater than the value in the current box, start subtracting from the *previous* box and remove its effects.
+                        </li>
+                        <li>
+                            (Optional) For some scales, you can rule that filled boxes cannot be recovered.
+                        </li>
+                    </ul>
+                    <br>
+                </p>
 
-                <p></p>
                 <div class="content">
                     <div class="list list-100">
                         <div class="list-item">
-                            <div class="list-item__title">Example Sanity Scale:</div>
+                            <div class="list-item__title">Example: Sanity Scale</div>
                             <div class="list-item__text">
                                 <ul>
                                     <li><strong>Triggers:</strong>
                                         <ul>
-                                            <li>Worsening: seeing horror, getting injured, spending a night without sleep...</li>
-                                            <li>Recovery: rest, new hope, life's joys...</li>
+                                            <li>Worsening: witnessing horror, getting injured, spending a night without sleep...</li>
+                                            <li>Recovery: rest, newfound hope, joys of life...</li>
                                         </ul>
                                     </li>
-                                    <li><strong>Changes</strong>
+                                    <li><strong>Stages</strong>
                                         <ol>
-                                            <li>Rare auditory hallucinations</li>
+                                            <li>Occasional auditory hallucinations</li>
                                             <li>Increased nervousness</li>
-                                            <li>New phobia, intensification of hallucinations</li>
+                                            <li>A new phobia, intensified hallucinations</li>
                                             <li>Uncontrollable aggression</li>
                                             <li>Total insanity</li>
                                         </ol>
                                     </li>
-                                    <li><strong>Length:</strong> 15</li>
-                                    <li><strong>Step:</strong> 3 (15/5)</li>
-                                    <li><strong>Characteristic:</strong> Intelligence (3)</li>
-                                    <li><strong>Current Value:</strong> 7</li>
-                                    <li><strong>Current Difficulty:</strong> 14 (10 + (2 + 2))</li>
+                                    <li><strong>Box Limit:</strong> 5</li>
+                                    <li><strong>Filled Boxes:</strong> 2</li>
+                                    <li><strong>Current Box:</strong> 3, Value: 2</li>
+                                    <li><strong>Attribute:</strong> Intelligence (3)</li>
+                                    <li><strong>Current Difficulty:</strong> 14 (10 + (Number of Filled Boxes * 2))</li>
                                     <li><strong>Roll:</strong> d20 + Intelligence (3)</li>
                                 </ul>
                             </div>
