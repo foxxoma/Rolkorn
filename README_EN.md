@@ -1,209 +1,186 @@
-# 🎲 «Rolkorn»
+# 🎲 "Rolkorn"
 
-**🌐 [Website](https://foxxoma.github.io/Rolkorn/en.html)**
+**🌐 [Website](https://foxxoma.github.io/Rolkorn/)**
 
 [🇺🇸 EN](README_EN.md) | [🇷🇺 RU](README.md)
 
 Universal rules for role-playing games.
 
-Rolecorn is a set of keys for a world that does not yet exist. The mechanics are not strict laws, but guides for your imagination.
+Rolkorn is a set of keys for a world that doesn't exist yet. The mechanics are not strict laws, but guides for your imagination.
 
-There is no single Game Master here. You are all the creators of this world. Roll the dice to set the direction, and your imagination will do the rest. Every failure is a new twist, every victory is a tense triumph.
+There is no single Game Master here. You are all the creators of this world. Roll the dice to set the direction, and your imagination will do the rest. Every failure is a new twist, every success is a tense triumph.
 
-Remember: these rules are the backdrop for your actions, not their confines. Use them only when you truly need to. Don't be afraid to add your own temporary bonuses for equipment, a clever idea, or great roleplaying. But remember: simplicity is the key to a dynamic game. Don't turn the story into bookkeeping.
+Remember: these rules are the backdrop for your actions, not their framework. Use them only when you really need to. Don't be afraid to add your own temporary bonuses for equipment, a good idea, or great roleplaying. But remember: simplicity is the key to a dynamic game. Don't turn the story into accounting.
 
 ## 🎯 WHAT'S INSIDE?
 
-- **CHARACTER ATTRIBUTES** - what are they good at?  
-- **SITUATION** - defines the scene's mood  
-- **DIFFICULTY** - number determining challenge difficulty  
-- **ACTION** - attempt to overcome a challenge  
-- **TENSION** - resisting failures  
-- **PLOT TWIST** - where will the story turn next?  
-- **CONFRONTATION** - resolving conflicts
-- **CONDITION SCALE** - tracking states
+- **CHARACTER CREATION** - who are they and what are they good at?
+- **SITUATION** - defines the scene's mood
+- **DIFFICULTY** - a number defining the challenge's complexity
+- **ACTION** - an attempt to overcome a challenge
+- **TENSION** - resisting failure
+- **PLOT TWIST** - where will the plot turn now?
+- **CONFLICT** - resolving conflicts
+- **CONDITION TRACK** - tracking conditions
 
 ---
 
-## 👤 CHARACTER CREATION  
-*Distribute 6 points*, but note that the maximum attribute value is 4
+## 👤 CHARACTER CREATION
 
-**ATTRIBUTES:**
-- 💪 **Strength** (attack, defense, athletics)  
-- 🎯 **Dexterity** (stealth, shooting, dodging)  
-- 🧠 **Intellect** (knowledge, magic, hacking)  
-- 🎭 **Charisma** (persuasion, deception, leadership)
+Describe your character in as much detail as possible... What did they do, what were their hobbies, motivations...
+Highlight what they are very good at, their mindset, interests, and what they are very bad at, their phobias and pitfalls. If there are any peculiarities, highlight them too.
 
-**Example**: Warrior (Strength +2, Dexterity +1, Intellect 0, Charisma +1)
+Now, during all d20 checks, if the character's background influences the roll, add or subtract from the rolled value:
+- **1**: background indirectly influences the roll. "I've encountered something similar."
+- **2**: the action touches upon a significant aspect of the biography. "This involves my important skills, beliefs, fears..."
+- **4**: the character's background directly influences the roll. "This touches the very core of my being."
 
 ---
 
-## GAME MECHANICS  
+## GAME MECHANICS
 *Use as needed*
 
-### 1. 📊 **SITUATION**  
-*Game Master rolls d4:*
+### 1. 📊 **SITUATION**
+*The GM rolls a d4:*
 
-| d4  | Situation    | Effect         |
-| --- | ------------ | -------------- |
-| 1   | 💀 Danger    | +5 to difficulty |
-| 2   | ⚡ Complications | +3 to difficulty |
-| 3   | 🌀 Neutral   | +0 to difficulty |
-| 4   | ✨ Luck      | -3 to difficulty |
+| d4  | Situation       | Effect           |
+| --- | --------------- | ---------------- |
+| 1   | 💀 Danger       | +5 to difficulty |
+| 2   | ⚡ Complications| +3 to difficulty |
+| 3   | 🌀 Neutral      | +0 to difficulty |
+| 4   | ✨ Fortune      | -3 to difficulty |
 
-**Purpose**: Assess the situation (atmosphere, mood of others, danger of the place, etc.). It is determined once at the beginning of a scene or when the circumstances change dramatically. The modifier remains in effect until the situation changes.
+**Purpose**: To assess the situation (atmosphere, mood of others, danger of the place, etc.). Determined once at the beginning of a scene or upon a drastic change in circumstances. The modifier lasts until the situation changes.
 
 ---
 
-### 2. 🎯 **DIFFICULTY**  
-*Game Master rolls d20 + situation modifier or opponent's attribute*  
+### 2. 🎯 **DIFFICULTY**
+*The GM determines the difficulty in advance or rolls d20 + the situation modifier or the opponent's characteristic.*
 **Example:** d20=15 + Danger(+5) = Difficulty 20
 
-**Purpose**: Determine how difficult the challenge is.
+**Purpose**: To determine how challenging the task is.
 
 ---
 
-### 3. 🎲 **ACTION**  
-*Player rolls d20 + attribute*  
-**Example:** d20=10 + Strength(+3) + Assistance(+2) = 15
+### 3. 🎲 **ACTION**
+*The player rolls d20 + background influence.*
+**Example:** d20=10 + skilled warrior(4) + assistance(+2) = 16
 
-**🤝 Assistance:** another player adds their attribute to the roll
+**🤝 Assistance:** another player adds their background bonus or allows a reroll if they have no applicable bonus.
 
-- ✅ **SUCCESS** (roll is greater than or equal to difficulty) — victory!  
+- ✅ **SUCCESS** (roll is greater than or equal to the difficulty) — victory!
 - ❌ **FAILURE** — begins **TENSION**
 
 ---
 
-### 4. ⏳ **TENSION**  
-*The hero has 5 rounds or 5 lives, depending on the situation.
-Player rolls d4:*
+### 4. ⏳ **TENSION**
+*The hero has 3 rounds of resolve or 3 "lives," depending on the situation.
+The player rolls a d4:*
 
-| d4  | Result       | Difficulty | Rounds |
-| --- | ------------ | ---------- | ------ |
+| d4  | Result         | Difficulty | Rounds |
+| --- | -------------- | ---------- | ------ |
 | 1   | 💥 Getting Worse | +3        | -3     |
-| 2   | 🔥 Hard      | -1        | -2     |
-| 3   | ⚔️ Perseverance | -2        | -1     |
-| 4   | 🎯 Breakthrough | -3        | -0     |
+| 2   | 🔥 Hard        | -1        | -2     |
+| 3   | ⚔️ Perseverance| -2        | -1     |
+| 4   | 🎯 Breakthrough! | -3        | -0     |
 
 **DEFEAT:** if rounds are less than or equal to 0 — complete failure
 
-*Improvise! Don't feel constrained by the number of rounds. Shorten them, interrupt them to introduce a new event or action. The main thing is that it's interesting and logical for your story.*
+*Improvise! Don't feel constrained by the number of rounds. Shorten them, interrupt them to introduce a new event or action. The main thing is that it is interesting and logical for your story.*
 
 ### 💡 EXAMPLE
 
-*"The hero is cracking a safe"*  
-1. **Situation:** d4=2 (Complications +3)  
-2. **Difficulty:** d20=10 + 3 = 13  
-3. **Action:** player rolls 8 + Intellect(+2) = 10 (failure!)  
-4. **Tension:** d4=1 — difficulty 16, 2 rounds left  
-*"You triggered the alarm! Sirens are blaring, there's little time left"*
+*"The hero is cracking a safe."*
+1. **Situation:** Complications (+3 to difficulty)
+2. **Difficulty:** 13 (d20=10 + 3)
+3. **Action:** player rolls 8 + picked locks(2) = 10 (failure!)
+4. **Tension:** d4=1 => difficulty 16(13 + 3), 2 rounds remaining
+*"You triggered the alarm! Sirens are wailing, there's little time left."*
 
 ---
 
 ## 🌀 **PLOT TWIST**
 *Use after key scenes to make the story develop unexpectedly*
 
-| d4  | Twist            |
-| --- | ---------------- |
-| 1   | 🔄 Setback/Aggravation       |
-| 2   | ⏸️ Dead End      |
-| 3   | 🌱 Fork/Clue     |
-| 4   | 🎯 Progress      |
+| d4  | Twist                  |
+| --- | ---------------------- |
+| 1   | 🔄 Setback/Escalation  |
+| 2   | ⏸️ Dead End           |
+| 3   | 🌱 Fork/Clue          |
+| 4   | 🎯 Progress            |
 
 ---
 
-## ⚔️ The confrontation of the players
+## ⚔️ Player vs Player Conflict
 
-- **Agree on the number of rounds:** Some clashes can be resolved in a single attempt
-- **Declare your motives:** Each side states: "I want to..." and "...using (Attribute)"
-- 🎲 **Simultaneous roll:** Both sides roll d20 + declared Attribute
-- ✅ **Winner (higher roll):** Achieves their goal
-- ❌ **Loser (lower roll):** Fails their attempt; if there's more than one round, ⏳ **TENSION** begins
-- 🔁 **Each round:** Sum up all your buffs and debuffs from TENSION and add them to your next roll
-
-*Essentially, your opponent's roll sets the difficulty for you, so if you rolled 3 on TENSION (difficulty -2) it means you add +2 to your own roll*
+- **Agree on the number of rounds:** Some clashes might be resolved in a single attempt.
+- **Declare motives:** Each side declares what they want to do.
+- 🎲 **Simultaneous roll:** Both sides roll d20 + background influence.
+- ✅ **Winner (higher roll):** Achieves their goal.
+- ❌ **Loser (lower roll):** Fails. If there is more than one round, begins ⏳ **TENSION**.
+- 🔁 **Each round:** Sum up all your buffs and debuffs from TENSION and add them to your next roll.
 
 ### 🎭 Conflict Example
 
-- **ROUND 1**  
-    Warrior: "I'm using a feint to try to knock the sword out of his hands!" (Strength +2). Roll: d20=13 + Strength(+2) = 15
-    Rogue: "I dodge and try to slip past to strike him in the back!" (Dexterity +3). Roll: d20=10 + Dexterity(+3) = 13
+- **ROUND 1**
+    Warrior: "I feint and try to knock the sword out of his hand!" (novice warrior +2). Roll: d20=13 + 2 = 15
+    Rogue: "I dodge and try to slip past to strike his back!" (dexterous +4). Roll: d20=10 + 4 = 14
 
-    The Warrior wins. He describes how his powerful strike forces the Rogue to drop his sword.
-    The Rogue rolls for ⏳ **TENSION**: d4=1 (Everything's Worse). He gets a -3 debuff to his next roll.
-    *"You're left without a sword, you slip and fall to one knee. You're now in a desperate position (-3)."*
+    The Warrior wins. He describes how his powerful blow forces the Rogue to drop his sword.
+    The Rogue rolls for ⏳ **TENSION**: d4=1 (Getting Worse). He gets a -3 debuff to his next roll.
+    *You are left without a sword, slip, and fall to one knee. Now you are in a desperate position (-3).*
 
-- **ROUND 2**  
-    Motives change. The Rogue now wants to "retreat and draw a backup dagger" (Dexterity), while the Warrior wants to "finish him off while he's vulnerable" (Strength).
-    On his roll, the Rogue will apply his debuff: d20 + Dexterity - 3.
-    After the rolls, the Rogue successfully retreats, and the Warrior, rolling for ⏳ **TENSION** (4), gets a Buff: (difficulty -3 = +3 to roll).
-    *"The Warrior missed his strike, but managed to analyze the Rogue's movements."*
-
----
-
-## CONDITION SCALE
-
-Scales allow you to track a character's progressive conditions. There can be any number of scales, of any nature—from psychological state to viral infection.  
-
-First, define the scale's primary attribute from the character's existing attributes. If you're not satisfied with the available attributes, add your own. Or, make the scale entirely independent.  
-
-Now, think about and list the circumstances under which the condition will worsen: horror, loss, confrontations...  
-And under which it will recover: time, rest, newfound hope...  
-
-Next, divide the condition into 5 stages and describe the changes that occur at each one. These stages are tied to the condition's boxes.  
-
-**Difficulty**  
-Determine the target number needed on a roll to avoid gaining condition points. It starts at 10 and increases as condition boxes are filled.  
-
-Each time you face circumstances that worsen the condition, roll d20 + the scale's primary attribute (if applicable) against the current Difficulty. On a failure, gain 1 condition point.  
-
-**Condition Boxes**  
-You have 5 Condition Boxes. Each box can hold a specific number of condition points. Set these for your scale (e.g., 1, 5, 10...). The lower the value, the faster the scale fills.  
-Once a box reaches its limit:  
-- Its stage effect is applied  
-- The Difficulty increases by 2  
-- New points begin filling the next box  
-
-When recovery occurs: roll a d4 and subtract the result from the value in the *current* box.  
-- If the rolled value is greater than the value in the current box, start subtracting from the *previous* box and remove its effects.  
-- (Optional) For some scales, you can rule that filled boxes cannot be recovered.  
-
-**Example: Sanity**  
-- Triggers:  
-    - Worsening: witnessing horror, getting injured, spending a night without sleep...  
-    - Recovery: rest, newfound hope, joys of life...  
-- Stages  
-    - 1. Occasional auditory hallucinations  
-    - 2. Increased nervousness  
-    - 3. A new phobia, intensified hallucinations  
-    - 4. Uncontrollable aggression  
-    - 5. Total insanity  
-- Box Limits: 5  
-- Filled Boxes: 2  
-- Current Box: 3, Value: 2  
-- Attribute: Intelligence (3)  
-- Current Difficulty: 14 (10 + (Number of Filled Boxes * 2))  
-- Roll: d20 + Intelligence (3)  
+- **ROUND 2**
+    Motives change. The Rogue now wants to "retreat and draw a backup dagger," and the Warrior wants to "finish him off while he's vulnerable."
+    When rolling, the Rogue will apply his debuff: d20 + background influence - 3.
+    After the rolls, the Rogue successfully retreats, and the Warrior, rolling for ⏳ **TENSION** (4), gets a Buff +3 to the next roll.
+    *The Warrior missed but was able to analyze the Rogue's movements.*
 
 ---
 
-## 📝 CHARACTER SHEET
+## Condition Track
 
-**Name:**  
-**Attributes:**  
-💪 Strength:  
-🎯 Dexterity:  
-🧠 Intellect:  
-🎭 Charisma:  
+Tracks allow you to monitor a character's progressive conditions. There can be any number of them and of any nature: from psychological state to infection.
 
-**Current round:**  
-**Current buffs/debuffs:**
+Now think and write down under what circumstances the condition will worsen: horror, loss, conflicts...
+And under what circumstances it will recover: time, rest, new hope....
+
+Divide the condition into 5 stages and describe what changes occur at each of them. These stages are linked to the condition boxes.
+
+**Difficulty**
+The value needed on a roll to avoid gaining condition points. Starts at 10 and increases as condition boxes are filled.
+
+Each time you face circumstances that worsen the condition, roll d20 + background influence against the current difficulty. On a failure, fill in one condition box or part of it.
+
+**Condition Boxes**
+You have 5 condition boxes, which you can subdivide into several parts if you want to stretch the progression time of the condition.
+Once an entire box is filled:
+- its effects are applied
+- the difficulty increases by 2
+
+When recovery occurs: roll a d4 to find out how many boxes or parts of boxes can be cleared.
+(Optional) For some tracks, you can forbid clearing already fully filled boxes.
+
+Example: Sanity
+- Triggers:
+    - Worsening: see horror, get wounded, spend a night without sleep...
+    - Recovery: rest, new hope, joys of life...
+- Stages
+    - 1. Rare auditory hallucinations
+    - 2. Increased nervousness
+    - 3. New phobia, intensifying hallucinations
+    - 4. Uncontrollable aggression
+    - 5. Total madness
+- Number of filled boxes: 2
+- Current box being filled: 3
+- Current difficulty: 14 (10 + (Number of filled boxes * 2))
+- Roll: d20 + background influence
 
 ---
 
 ## CONTACTS
 
-**Telegram:** [@sf_andrey](https://t.me/sf_andrey)  
+**Telegram:** [@sf_andrey](https://t.me/sf_andrey)
 **Email:** foxxoma@gmail.com
 
 *For any questions, suggestions, and feedback — write!*
@@ -211,4 +188,4 @@ When recovery occurs: roll a d4 and subtract the result from the value in the *c
 ---
 
 ### 🏷️ Tags
-*narrative system, rules, nri, role-playing games, rules-light, system, rollcorn, universal role-playing system, easy rules, minimalism, improvisation.*
+*narrative system, rules, system, RPG, roleplaying, role-playing games, Rolkorn, universal role-playing system, lightweight rules, minimalism, improvisation.*
