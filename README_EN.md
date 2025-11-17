@@ -1,4 +1,5 @@
 # 🎲 "Rolkorn"
+*A lightweight narrative engine for those who value story.*  
 
 **🌐 [Website](https://foxxoma.github.io/Rolkorn/)**
 
@@ -8,7 +9,7 @@ Universal rules for role-playing games.
 
 Rolkorn is a set of keys for a world that doesn't exist yet. The mechanics are not strict laws, but guides for your imagination.
 
-There is no single Game Master here. You are all the creators of this world. Roll the dice to set the direction, and your imagination will do the rest. Every failure is a new twist, every success is a tense triumph.
+You are all the creators of this world. Roll the dice to set the direction, and your imagination will do the rest. Every failure is a new twist, every success is a tense triumph.
 
 Remember: these rules are the backdrop for your actions, not their framework. Use them only when you really need to. Don't be afraid to add your own temporary bonuses for equipment, a good idea, or great roleplaying. But remember: simplicity is the key to a dynamic game. Don't turn the story into accounting.
 
