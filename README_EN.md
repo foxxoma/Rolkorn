@@ -41,7 +41,7 @@ Now, during all d20 checks, if the character's background influences the roll, a
 *Use as needed*
 
 ### 1. 📊 **SITUATION**
-*The GM rolls a d4:*
+*The GM scenes rolls a d4:*
 
 | d4  | Situation       | Effect           |
 | --- | --------------- | ---------------- |
@@ -55,7 +55,7 @@ Now, during all d20 checks, if the character's background influences the roll, a
 ---
 
 ### 2. 🎯 **DIFFICULTY**
-*The GM determines the difficulty in advance or rolls d20 + the situation modifier or the opponent's characteristic.*
+*The GM scenes determines the difficulty in advance or rolls d20 + the situation modifier or the opponent's characteristic.*
 **Example:** d20=15 + Danger(+5) = Difficulty 20
 
 **Purpose**: To determine how challenging the task is.
