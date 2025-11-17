@@ -23,7 +23,6 @@ Remember: these rules are the backdrop for your actions, not their framework. Us
 - **PLOT TWIST** - where will the plot turn now?
 - **CONFLICT** - resolving conflicts
 - **CONDITION TRACK** - tracking conditions
-- [**ДОПОЛНЕНИЯ**](additions_en.md) - additional mechanics
 
 ---
 
