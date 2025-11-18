@@ -28,13 +28,24 @@ Remember: these rules are the backdrop for your actions, not their framework. Us
 
 ## 👤 CHARACTER CREATION
 
-Describe your character in as much detail as possible... What did they do, what were their hobbies, motivations...
-Highlight what they are very good at, their mindset, interests, and what they are very bad at, their phobias and pitfalls. If there are any peculiarities, highlight them too.
+Translate the following into English:
 
-Now, during all d20 checks, if the character's background influences the roll, add or subtract from the rolled value:
-- **1**: background indirectly influences the roll. "I've encountered something similar."
-- **2**: the action touches upon a significant aspect of the biography. "This involves my important skills, beliefs, fears..."
-- **4**: the character's background directly influences the roll. "This touches the very core of my being."
+Describe your character in as much detail as possible... What they did, what they were interested in, what motivated them...
+Highlight what they are very good at, their mindset, interests, and what they are very bad at, their phobias and pitfalls. If there are any distinctive features, those should be highlighted as well.
+
+Now, during all d20 dice checks, if the character's backstory influences the roll, add or subtract from the rolled value:  
+- 1: the backstory indirectly influences the roll.  
+    Your past experience provides a general understanding, but not a direct skill:  
+    "I've encountered something similar before."  
+    "I read about these ancient runes in the academy's library."  
+- 2: the roll touches upon significant aspects of the biography.  
+    The situation directly involves your primary occupation, stated talents, beliefs, fears...:  
+    "As a former blacksmith, I can assess the quality of this metal and the work of the hammer."  
+- 4: the roll tests the very essence of the character...  
+    This is who you are. Action at the level of instinct.  
+    "For me, tracking a target is not an action, but a state of being. I can sense it from a mile away."  
+
+The +4 bonus is not the ceiling. The value can grow as this part of their backstory is recognized to have reached a completely new level.  
 
 ---
 
