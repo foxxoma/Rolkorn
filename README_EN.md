@@ -67,7 +67,7 @@ The +4 bonus is not the ceiling. The value can grow as this part of their backst
 ---
 
 ### 2. 🎯 **DIFFICULTY**
-*The GM scenes determines the difficulty in advance or rolls d20 + the situation modifier or the opponent's characteristic.*
+*The GM scenes determines the difficulty in advance or rolls d20 + the situation modifier or the opponent's background.*
 **Example:** d20=15 + Danger(+5) = Difficulty 20
 
 **Purpose**: To determine how challenging the task is.
