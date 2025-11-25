@@ -98,6 +98,8 @@ The player rolls a d4:*
 
 **DEFEAT:** if rounds are less than or equal to 0 — complete failure
 
+If you want to add a modifier to a throw instead of reducing its difficulty, simply replace the sign: -3 => +3; +3 => -3...
+
 *Improvise! Don't feel constrained by the number of rounds. Shorten them, interrupt them to introduce a new event or action. The main thing is that it is interesting and logical for your story.*
 
 ### 💡 EXAMPLE
